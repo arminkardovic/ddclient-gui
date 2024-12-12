@@ -17,10 +17,10 @@ DDClient-GUI is a graphical configuration editor for the `ddclient` tool, which 
 ## Screenshots
 
 ### 1. Main Configuration Screen
-![Main Configuration Screen](DNS-images/1.png)
+![Main Configuration Screen](https://raw.githubusercontent.com/arminkardovic/ddclient-gui/refs/heads/master/dns-images/1.png)
 
 ### 2. Domain Editing Dialog
-![Domain Editing Dialog](DNS-images/2.png)
+![Domain Editing Dialog](https://raw.githubusercontent.com/arminkardovic/ddclient-gui/refs/heads/master/dns-images/2.png)
 
 ---
 
