@@ -1,25 +1,36 @@
 # DDClient-GUI
 
-DDClient-GUI is a user-friendly graphical interface for managing Dynamic DNS (DDNS) updates. Built on top of the widely-used `ddclient` tool, this application simplifies the configuration and maintenance of DDNS services, making them accessible to users of all skill levels.
+DDClient-GUI is a graphical configuration editor for the `ddclient` tool, which is widely used for managing Dynamic DNS (DDNS) updates. This project provides an intuitive GUI for creating, editing, and exporting `ddclient.conf` files, making it easier to manage DDNS configurations.
+
+---
 
 ## Features
 
-- **Intuitive Dashboard**: Monitor and manage DDNS settings effortlessly.
-- **Multi-Provider Support**: Works with popular providers like DynDNS, Cloudflare, Namecheap, and more.
-- **Automated Configuration**: Step-by-step wizards to set up and sync your DDNS settings.
-- **Real-Time Status Updates**: Check current IP address, update history, and connection status.
-- **Customizable Update Schedules**: Set update intervals for seamless IP syncing.
-- **Notification System**: Receive alerts for IP changes, update failures, or configuration issues.
-- **Secure Storage**: Protects your credentials and sensitive data using encryption.
-- **Cross-Platform Compatibility**: Runs on Windows, macOS, and Linux.
+- **Global Configuration Management**: Set global parameters like `daemon`, `ssl`, `use`, `protocol`, and more.
+- **Domain Management**: Add, edit, and delete domain-specific configurations with a user-friendly dialog interface.
+- **Real-Time Configuration Preview**: View and modify your configuration in an organized tree view.
+- **Export Functionality**: Save your updated configurations to a new file easily.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
+
+---
+
+## Screenshots
+
+### 1. Main Configuration Screen
+![Main Configuration Screen](DNS-images/1.png)
+
+### 2. Domain Editing Dialog
+![Domain Editing Dialog](DNS-images/2.png)
+
+---
 
 ## Installation
 
 ### Prerequisites
 
-- `ddclient` installed on your system.
-- Python 3.8+ (if the app is Python-based) or required runtime dependencies.
-- Git (optional, for cloning the repository).
+- Python 3.1+
+- Tkinter (should be included with Python installations)
+- `ddclient` tool installed (optional for configuration testing).
 
 ### Steps
 
